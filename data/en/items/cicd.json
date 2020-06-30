@@ -1,0 +1,22 @@
+[
+    {
+      "title": "Deploy with ARM",
+      "priority": "High",
+      "description": "Implement infrastructure as code",
+      "documentation": [
+        {
+          "title": "ARM reference",
+          "url": "https://docs.microsoft.com/en-us/azure/templates/microsoft.kusto/allversions"
+        },
+        {
+          "title": "Deploy Azure Data Explorer cluster into your VNet",
+          "url": "https://github.com/Azure/azure-quickstart-templates/tree/master/101-kusto-vnet"
+        },
+        {
+          "title": "Create a cluster, a database and add principals to it",
+          "url": "https://github.com/Azure/azure-quickstart-templates/tree/master/101-kusto-cluster-database"
+        }
+      ],
+      "tags": ["all", "CI/CD"]
+    }
+] 

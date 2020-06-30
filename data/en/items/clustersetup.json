@@ -1,140 +1,35 @@
 [
    {
-      "title": "Logically isolate cluster",
+      "title": "Deploy ADX into your Virtual Network",
       "priority": "Medium",
-      "description": "Use logical isolation to separate teams and projects. Try to minimize the number of physical AKS clusters you deploy to isolate teams or applications",
+      "description": "Implement network isolation",
+      "details" : "Azure Data Explorer supports deploying a cluster into a subnet in your Virtual Network (VNet)",
       "documentation": [
         {
-          "title": "Isolating cluster",
-          "url": "https://docs.microsoft.com/en-us/azure/aks/operator-best-practices-cluster-isolation#logically-isolate-clusters"
+          "title": "Deploy Azure Data Explorer cluster into your Virtual Network",
+          "url": "https://docs.microsoft.com/en-us/azure/data-explorer/vnet-deployment"
+        }
+      ],
+      "tags": ["all", "security", "network"]
+    },
+    {
+      "title": "ADX dimensioning",
+      "priority": "High",
+      "description": "Select the correct vertical and horizontal scale",
+      "documentation": [
+        {
+          "title": "Select the correct VM SKU for your Azure Data Explorer cluster",
+          "url": "https://docs.microsoft.com/en-us/azure/data-explorer/manage-cluster-choose-sku"
+        },
+        {
+          "title": "Manage cluster horizontal scaling (scale out) in Azure Data Explorer to accommodate changing demand",
+          "url": "https://docs.microsoft.com/en-us/azure/data-explorer/manage-cluster-horizontal-scaling"
+        },
+        {
+          "title": "Manage cluster vertical scaling (scale up) in Azure Data Explorer to accommodate changing demand",
+          "url": "https://docs.microsoft.com/en-us/azure/data-explorer/manage-cluster-vertical-scaling"
         }
       ],
       "tags": ["all"]
-    },
-    {
-      "title": "Physically isolate cluster",
-      "priority": "High",
-      "description": "Minimize the use of physical isolation for each separate team or application deployment",
-      "documentation": [
-        {
-          "title": "Isolating cluster",
-          "url": "https://docs.microsoft.com/en-us/azure/aks/operator-best-practices-cluster-isolation#physically-isolate-clusters"
-        }
-      ],
-      "tags": ["all"]
-    },
-    {
-      "title": "IP Range authorization",
-      "priority": "High",
-      "description": "The API server is the central way to interact with your cluster. To improve cluster security and minimize attacks, the API server should only be accessible from a limited set of IP address ranges.By using a private cluster, you can ensure that network traffic between your API server and your node pools remains on the private network only. Because the API server has a private address, it means that to access it for administration or for deployment, you need to set up a private connection, like using a 'jumpbox' (i.e.: Azure Bastion)",
-      "documentation": [
-        {
-          "title": "Secure access to the API server using authorized IP address ranges",
-          "url": "https://docs.microsoft.com/en-us/azure/aks/api-server-authorized-ip-ranges"
-        }
-      ],
-      "tags": ["all", "security"]
-    },
-    {
-      "title": "AAD Integration",
-      "priority": "High",
-      "description": "Azure Kubernetes Service (AKS) can be configured to use Azure Active Directory (Azure AD) for user authentication. In this configuration, you can sign in to an AKS cluster by using your Azure AD authentication token.",
-      "documentation": [
-        {
-          "title": "Integrate Azure Active Directory with Azure Kubernetes Service",
-          "url": "https://docs.microsoft.com/en-us/azure/aks/azure-ad-integration"
-        },
-        {
-          "title": "AAD Integration V2",
-          "url": "https://docs.microsoft.com/en-us/azure/aks/azure-ad-v2"
-        }
-      ],
-      "tags": ["all", "security"]
-    },
-    {
-      "title": "Private cluster",
-      "priority": "High",
-      "description": "In a private cluster, the control plane or API server has internal IP addresses and is not exposed to Internet",
-      "detail": "By using a private cluster, you can ensure that network traffic between your API server and your node pools remains on the private network only. Because the API server has a private address, it means that to access it for administration or for deployment, you need to set up private connection, like using a 'jumpbox' (i.e.: Azure Bastion)",
-      "documentation": [
-        {
-          "title": "Create a private cluster",
-          "url": "https://docs.microsoft.com/en-us/azure/aks/private-clusters"
-        }
-      ],
-      "tags": ["all", "security"]
-    },
-    {
-      "title": "Enable cluster autoscaling",
-      "priority": "Medium",
-      "description": "To keep up with application demands in Azure Kubernetes Service (AKS), you may need to adjust the number of nodes that run your workloads. The cluster autoscaler component can watch for pods in your cluster that can't be scheduled because of resource constraints.",
-      "details": "You can enable autoscaling module per node pool but only create one mutual autoscale profile",
-      "documentation": [
-        {
-          "title": "AKS Autoscaler",
-          "url": "https://docs.microsoft.com/en-us/azure/aks/cluster-autoscaler"
-        }
-      ],
-      "tags": ["all", "resources"]
-    },
-    {
-      "title": "Sizing of the nodes",
-      "priority": "Medium",
-      "description": "what type of worker nodes should I use, and how many of them is a critical question which requires the analysis of the workloads deployed on your cluster to get the best values of it",
-      "details": "Choosing on one hand between easy management and big blast radius, and on the other end to focus on high replication, low impact but worse resources optimization ",
-      "documentation": [
-        {
-          "title": "Choosing a worker node size",
-          "url": "https://learnk8s.io/kubernetes-node-size"
-        },
-        {
-          "title": "Choose the right storage type",
-          "url": "https://docs.microsoft.com/en-us/azure/aks/operator-best-practices-storage#choose-the-appropriate-storage-type"
-        },
-        {
-          "title": "How to size Kubernetes clusters",
-          "url": "https://events19.linuxfoundation.cn/wp-content/uploads/2017/11/BoF_-Not-One-Size-Fits-All-How-to-Size-Kubernetes-Clusters_Guang-Ya-Liu-_-Sahdev-Zala.pdf"
-        }
-      ],
-      "tags": ["all", "resources"]
-    },
-    {
-      "title": "Refresh container when base image is updated",
-      "priority": "Medium",
-      "description": "As you use base images for application images, use automation to build new images when the base image is updated. As those base images typically include security fixes, update any downstream application container images.",
-      "documentation": [
-        {
-          "title": "Automatically build new images on base image update",
-          "url": "https://docs.microsoft.com/en-us/azure/aks/operator-best-practices-container-image-management#automatically-build-new-images-on-base-image-update"
-        },
-        {
-          "title": "Azure DevOps - Trigger pipeline from Docker image update",
-          "url": "https://dev.to/larryclaman/trigger-azure-devops-build-pipeline-from-docker-image-update-5d3i"
-        }
-      ],
-      "tags": ["all", "resources"]
-    }
-    ,
-    {
-      "title": "Check if you need the Kubernetes dashboard",
-      "priority": "Medium",
-      "description": "By default Kubernetes deploys and exposed the default dashboard. If you don't plan to use it to pilot your cluster, you should disable it.",
-      "details": "It can be done with the following CLI: az aks disable-addons --addons kube-dashboard --resource-group YOUR_RG --name CLUSTE_NAME",
-      "documentation": [
-      ],
-      "tags": ["all", "security"]
-    },
-    {
-      "title": "Use AKS and ACR integration without password",
-      "priority": "Medium",
-      "description": "AKS can authenticate to ACR without using any password, but by using either Service Principal or Managed Identity.",
-      "details": "For AKS to download/pull images from Azure Container Registry (ACR), it needs the ACR credentials including the password. To avoid saving the password in the cluster, you can simply activate the ACR integration on new or existing AKS cluster using SPN or Managed Identity",
-      "documentation": [
-        {
-          "title": "Authenticate with Azure Container Registry from AKS",
-          "url": "https://docs.microsoft.com/en-us/azure/aks/cluster-container-registry-integration"
-        }
-      ],
-      "tags": ["all", "security"]
     }
 ] 
