@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Plan for different workloads types",
+    "priority": "Medium",
+    "description": "ADX supports in place sharing of data",
+    "details" : "Azure Data Explorer decouples the storage and compute which allows customers to run multiple compute (read-only) instances on the same underlying storage. You can attach a database as a follower database, which is a read-only database on a remote cluster",
+    "documentation": [
+      {
+        "title": "Use Azure Data Share to share data with Azure Data Explorer",
+        "url": "https://docs.microsoft.com/en-us/azure/data-explorer/data-share"
+      }
+    ],
+    "tags": ["all"]
+  },
+  {
+    "title": "Implement a GDPR plan",
+    "priority": "High",
+    "description": "Delete personal data",
+    "details" : "As a data platform, Azure Data Explorer supports the ability to delete individual records, through the use of Kusto .purge and related commands.",
+    "documentation": [
+      {
+        "title": "Data purge",
+        "url": "https://docs.microsoft.com/en-us/azure/data-explorer/kusto/concepts/data-purge"
+      },
+      {
+        "title": "GDPR section of the Service Trust portal",
+        "url": "https://servicetrust.microsoft.com/ViewPage/GDPRGetStarted"
+      }
+    ],
+    "tags": ["all"]
+  }
+] 
