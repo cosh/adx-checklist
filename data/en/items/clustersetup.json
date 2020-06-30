@@ -3,7 +3,7 @@
       "title": "Deploy ADX into your Virtual Network",
       "priority": "Low",
       "description": "Implement network isolation",
-      "details" : "Azure Data Explorer supports deploying a cluster into a subnet in your Virtual Network (VNet)",
+      "detail" : "Azure Data Explorer supports deploying a cluster into a subnet in your Virtual Network (VNet)",
       "documentation": [
         {
           "title": "Deploy Azure Data Explorer cluster into your Virtual Network",
