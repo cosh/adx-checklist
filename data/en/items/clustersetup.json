@@ -1,13 +1,29 @@
 [
    {
       "title": "Deploy ADX into your Virtual Network",
-      "priority": "Medium",
+      "priority": "Low",
       "description": "Implement network isolation",
       "details" : "Azure Data Explorer supports deploying a cluster into a subnet in your Virtual Network (VNet)",
       "documentation": [
         {
           "title": "Deploy Azure Data Explorer cluster into your Virtual Network",
           "url": "https://docs.microsoft.com/en-us/azure/data-explorer/vnet-deployment"
+        }
+      ],
+      "tags": ["all", "security", "network"]
+    },
+    {
+      "title": "Monitor networking",
+      "priority": "Low",
+      "description": "Setup services to troubleshoot connectivity, operational, and cluster creation issues",
+      "documentation": [
+        {
+          "title": "Enable NSG Flow Logs",
+          "url": "https://docs.microsoft.com/azure/network-watcher/network-watcher-nsg-flow-logging-portal"
+        },
+        {
+          "title": "Check the NGSs, route table and firewalls",
+          "url": "https://docs.microsoft.com/en-us/azure/data-explorer/vnet-deploy-troubleshoot"
         }
       ],
       "tags": ["all", "security", "network"]
@@ -28,6 +44,55 @@
         {
           "title": "Manage cluster vertical scaling (scale up) in Azure Data Explorer to accommodate changing demand",
           "url": "https://docs.microsoft.com/en-us/azure/data-explorer/manage-cluster-vertical-scaling"
+        }
+      ],
+      "tags": ["all"]
+    },
+    {
+      "title": "Reduce cost with reserved instances",
+      "priority": "Medium",
+      "description": "Save money",
+      "details": "Save money with Azure Data Explorer by prepaying for the markup units compared to pay-as-you-go prices. With Azure Data Explorer reserved capacity, you make a commitment for Azure Data Explorer use for a period of one or three years to get a significant discount on the Azure Data Explorer markup costs. To purchase Azure Data Explorer reserved capacity, you only need to specify the term, it will apply to all deployments of Azure Data Explorer in all regions",
+      "documentation": [
+        {
+          "title": "Prepay for Azure Data Explorer markup units with Azure Data Explorer reserved capacity",
+          "url": "https://docs.microsoft.com/en-us/azure/data-explorer/pricing-reserved-capacity"
+        },
+        {
+          "title": "How to reduce cost with Azure Data Explorer Markup reserved capacity",
+          "url": "https://techcommunity.microsoft.com/t5/azure-data-explorer/how-to-reduce-cost-with-azure-data-explorer-markup-reserved/ba-p/1054906"
+        }
+      ],
+      "tags": ["all"]
+    },
+    {
+      "title": "Setup diagnostic logs",
+      "priority": "Medium",
+      "description": "Collect data about ingestion, health and performance",
+      "documentation": [
+        {
+          "title": "Monitor Azure Data Explorer ingestion operations using diagnostic logs",
+          "url": "https://docs.microsoft.com/en-us/azure/data-explorer/using-diagnostic-logs"
+        },
+        {
+          "title": "How to Monitor Azure Data Explorer ingestion using diagnostic logs",
+          "url": "https://techcommunity.microsoft.com/t5/azure-data-explorer/how-to-monitor-azure-data-explorer-ingestion-using-diagnostic/ba-p/1107252"
+        }
+      ],
+      "tags": ["all", "monitoring"]
+    },
+    {
+      "title": "Setup auto scale",
+      "priority": "Medium",
+      "description": "Manage the scale of your Azure Data Explorer cluster",
+      "documentation": [
+        {
+          "title": "Optimized autoscale",
+          "url": "https://docs.microsoft.com/en-us/azure/data-explorer/manage-cluster-horizontal-scaling#optimized-autoscale"
+        },
+        {
+          "title": "Automatically scale your cluster size to optimize query performance and cost",
+          "url": "https://techcommunity.microsoft.com/t5/azure-data-explorer/how-to-monitor-azure-data-explorer-ingestion-using-diagnostic/ba-p/1107252"
         }
       ],
       "tags": ["all"]

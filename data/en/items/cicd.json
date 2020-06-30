@@ -18,5 +18,29 @@
         }
       ],
       "tags": ["all", "CI/CD"]
+    },
+    {
+      "title": "Source Control For Azure Data Explorer Database Schemas",
+      "priority": "Medium",
+      "description": "Create a maintainable development process",
+      "documentation": [
+        {
+          "title": "Sync Kusto",
+          "url": "https://github.com/microsoft/synckusto"
+        }
+      ],
+      "tags": ["all", "CI/CD"]
+    },
+    {
+      "title": "Use Azure DevOps pipelines",
+      "priority": "Medium",
+      "description": "Implement high-performance pipelines",
+      "documentation": [
+        {
+          "title": "Azure DevOps Task for Azure Data Explorer",
+          "url": "https://docs.microsoft.com/en-us/azure/data-explorer/devops"
+        }
+      ],
+      "tags": ["all", "CI/CD"]
     }
 ] 

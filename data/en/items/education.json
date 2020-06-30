@@ -1,0 +1,34 @@
+[
+    {
+      "title": "Take courses",
+      "priority": "High",
+      "description": "Become an ADX and KQL master",
+      "documentation": [
+        {
+          "title": "Exploring Data in Microsoft Azure Using Kusto Query Language and Azure Data Explorer",
+          "url": "https://www.pluralsight.com/courses/microsoft-azure-data-exploring"
+        },
+        {
+          "title": "What is Azure Data Explorer?",
+          "url": "https://www.youtube.com/watch?v=OhLEkdlTke0"
+        },
+        {
+          "title": "Kusto Skills: Data in Microsoft Azure Using Kusto Query Language and Azure Data Explorer Preview",
+          "url": "https://www.youtube.com/watch?v=b5HB6LvwuNo"
+        }
+      ],
+      "tags": ["all", "education"]
+    },
+    {
+      "title": "Inform yourself how others are doing",
+      "priority": "High",
+      "description": "Learn from others",
+      "documentation": [
+        {
+          "title": "Customer stories",
+          "url": "https://customers.microsoft.com/EN-GB/search?sq=%22Azure%20Data%20Explorer%22&ff=&p=0&so=story_publish_date%20desc"
+        }
+      ],
+      "tags": ["all", "education"]
+    }
+] 
