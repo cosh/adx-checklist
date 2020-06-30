@@ -96,5 +96,12 @@
         }
       ],
       "tags": ["all"]
+    },
+    {
+      "title": "Chose the best region",
+      "priority": "High",
+      "description": "ADX is a regional service, choosing the right region is essential",
+      "detail": "Put the cluster close to your data source, in order to minimize bandwidth cost and latency.",
+      "tags": ["all"]
     }
 ] 
