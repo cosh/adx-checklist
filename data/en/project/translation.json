@@ -1,14 +1,14 @@
 {
-  "SITE_NAME": "The Azure Kubernetes Service Checklist",
+  "SITE_NAME": "The Azure Data Explorer Service Checklist",
   "INDEX_TITLE": "✨ Be ready for production ✨",
-  "URL_WEBSITE": "https://aka.ms/aks-checklist",
-  "SITE_TAGLINE": "The AKS Checklist - the best way to ensure your cluster is production-ready!",
+  "URL_WEBSITE": "https://aka.ms/adx.checklist",
+  "SITE_TAGLINE": "The ADX Checklist - the best way to ensure your cluster is production-ready!",
   "SITE_DESCRIPTION": "The best way to ensure your cluster is production-ready!",
   "SITE_VERSION":"Last updated on: ",
   "SITE_LANGUAGE": "en",
   "SITE_DIRECTION": "ltr",
-  "URL_GITHUB_ROOT": "http://github.com/lgmorand/aks-checklist",
-  "URL_GITHUB_REPO": "http://github.com/lgmorand/aks-checklist",
+  "URL_GITHUB_ROOT": "https://github.com/cosh/adx-checklist",
+  "URL_GITHUB_REPO": "https://github.com/cosh/adx-checklist",
   "HIGH_CHECKED": "✓ high priority",
   "MEDIUM_CHECKED": "✓ medium priority",
   "LOW_CHECKED": "✓ low priority",
@@ -20,7 +20,7 @@
   "SHOW_DETAILS": "Show details",
   "HIDE_DETAILS": "Hide details",
   "alert": {
-    "JAVASCRIPT_DESACTIVATE": "Your JavaScript seems to be deactivated. Please enable your JavaScript to use all features of the AKS Checklist."
+    "JAVASCRIPT_DESACTIVATE": "Your JavaScript seems to be deactivated. Please enable your JavaScript to use all features of the ADX Checklist."
   },
   "form": {
     "LABEL_PROJECT_NAME": "Project Name",
@@ -35,10 +35,10 @@
   },
   "social": {
     "TWEET": "Tweet",
-    "TWITTER_MSG": "Check the ✨ AKS Checklist ✨, the best way to ensure your cluster is production-ready 📑!",
-    "TWITTER_VIA": "lgmorand",
-    "TWITTER_HASHTAGS": "AKS Checklist #Kubernetes #security #AKS #Azure",
+    "TWITTER_MSG": "Check the ✨ ADX Checklist ✨, the best way to ensure your cluster is production-ready 📑!",
+    "TWITTER_VIA": "cosh23",
+    "TWITTER_HASHTAGS": "ADX Checklist #AzureDataExplorer #security #ADX #kusto #Azure",
     "STAR": "Star",
-    "GITHUB_STAR_MSG": "Star lgmorand/AKS-Checklist on GitHub"
+    "GITHUB_STAR_MSG": "Star cosh/ADX-Checklist on GitHub"
   }
 }
