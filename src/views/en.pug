@@ -12,53 +12,38 @@ block main
     if _items !== undefined
 
       +checklist-section({
-        dataSection: _items.development,
-        sectionTitle: "Development"
-      })
-
-      +checklist-section({
-        dataSection: _items.container,
-        sectionTitle: "Image management"
-      })
-      +checklist-section({
         dataSection: _items.clustersetup,
         sectionTitle: "Cluster setup"
       })
 
       +checklist-section({
         dataSection: _items.disasterrecovery,
-        sectionTitle: "Disaster Recovery"
+        sectionTitle: "Disaster recovery"
       })
 
       +checklist-section({
-        dataSection: _items.storage,
-        sectionTitle: "Storage"
+        dataSection: _items.encryption,
+        sectionTitle: "Encryption"
       })
 
       +checklist-section({
-        dataSection: _items.network,
-        sectionTitle: "Network"
+        dataSection: _items.cicd,
+        sectionTitle: "Continuous integration and delivery"
       })
 
       +checklist-section({
-        dataSection: _items.resourcemanagement,
-        sectionTitle: "Resource Management"
+        dataSection: _items.auth,
+        sectionTitle: "Access control"
       })
 
       +checklist-section({
-        dataSection: _items.multitenancy,
-        sectionTitle: "Multi Tenancy"
+        dataSection: _items.education,
+        sectionTitle: "Education"
       })
 
       +checklist-section({
-        dataSection: _items.windows,
-        sectionTitle: "Windows"
+        dataSection: _items.others,
+        sectionTitle: "Others"
       })
-
-      +checklist-section({
-        dataSection: _items.operations,
-        sectionTitle: "Cluster Maintenance"
-      })
-
 
   include components/s-section-bottom

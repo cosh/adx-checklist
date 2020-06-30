@@ -1,19 +1,19 @@
-# The Azure Kubernetes Service Checklist
+# The Azure Data Explorer (kusto) Service Checklist
 
-![Build and deploy on prod](https://github.com/lgmorand/aks-checklist/workflows/Build%20and%20deploy%20on%20prod/badge.svg)
+![Build and deploy on prod](https://github.com/cosh/adx-checklist/workflows/Build%20and%20deploy%20on%20prod/badge.svg?branch=master)
 
-Deployed version can be found here: [www.the-aks-checklist.com](https://www.the-aks-checklist.com)
-![AKS Checklist](https://raw.githubusercontent.com/lgmorand/aks-checklist/master/src/img/social/facebook-banner.jpg)
+Deployed version can be found here: [aka.ms/adx.checklist](https://aka.ms/adx.checklist)
+![ADX Checklist](https://raw.githubusercontent.com/cosh/adx-checklist/master/src/img/social/facebook-banner.jpg)
 
-The AKS Checklist is a (tentatively) exhaustive list of all elements you need to think of when preparing a cluster for production. It is based on all common best practices agreed around Kubernetes or documented [here](https://docs.microsoft.com/en-us/azure/aks/best-practices).
+The ADX Checklist is a (tentatively) exhaustive list of all elements you need to think of when preparing a cluster for production. It is based on all common best practices agreed around Azure Data Explorer (kusto) or documented [here](https://docs.microsoft.com/en-us/azure/data-explorer).
 
 ## Author
 
-**[Louis-Guillaume MORAND](https://github.com/lgmorand)**
+**[Henning Rauch](https://github.com/cosh)**
 
 ## Contributors
 
-**[Fernando Mejía feranto](https://github.com/feranto)**
+**[Louis-Guillaume MORAND](https://github.com/lgmorand)**
 
 ## How to contribute
 
@@ -26,7 +26,7 @@ Be aware that we want to keep a list an exhaustive as possible but also a list w
 There are up to six steps:
 
 - copy the folder **/data/en** and translate all information
-- in the localized files, modify the URL to target your langage (i.e: docs.microsoft.com/**YOURLANG**/link)
+- in the localized files, modify the URL to target your language (i.e: docs.microsoft.com/**YOURLANG**/link)
 - copy the file **src/views/en.html** and translate it
 - ensure that a flag is existing for your language (**/src/img/flags**)
 - add a link for your lang in the header (**src/view/base/header.pug**)
@@ -36,6 +36,7 @@ There are up to six steps:
 
 The source code itself is a modified version of the [Front-End Checklist](https://github.com/thedaviddias/Front-End-Checklist) which was created by [David Dias](https://github.com/thedaviddias)
 Icons made by Freepik from [www.flaticon.com](www.flaticon.com) is licensed by CC 3.0 BY
+The project has been forked from the [aks checklist project](https://github.com/lgmorand/aks-checklist) created by **[Louis-Guillaume MORAND](https://github.com/lgmorand)**. Thx a lot for your support!
 
 ## License
 

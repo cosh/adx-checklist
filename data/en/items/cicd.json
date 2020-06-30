@@ -1,0 +1,46 @@
+[
+    {
+      "title": "Deploy with ARM",
+      "priority": "High",
+      "description": "Implement infrastructure as code",
+      "documentation": [
+        {
+          "title": "ARM reference",
+          "url": "https://docs.microsoft.com/en-us/azure/templates/microsoft.kusto/allversions"
+        },
+        {
+          "title": "Deploy Azure Data Explorer cluster into your VNet",
+          "url": "https://github.com/Azure/azure-quickstart-templates/tree/master/101-kusto-vnet"
+        },
+        {
+          "title": "Create a cluster, a database and add principals to it",
+          "url": "https://github.com/Azure/azure-quickstart-templates/tree/master/101-kusto-cluster-database"
+        }
+      ],
+      "tags": ["all", "CI/CD"]
+    },
+    {
+      "title": "Source Control For Azure Data Explorer Database Schemas",
+      "priority": "Medium",
+      "description": "Create a maintainable development process",
+      "documentation": [
+        {
+          "title": "Sync Kusto",
+          "url": "https://github.com/microsoft/synckusto"
+        }
+      ],
+      "tags": ["all", "CI/CD"]
+    },
+    {
+      "title": "Use Azure DevOps pipelines",
+      "priority": "Medium",
+      "description": "Implement high-performance pipelines",
+      "documentation": [
+        {
+          "title": "Azure DevOps Task for Azure Data Explorer",
+          "url": "https://docs.microsoft.com/en-us/azure/data-explorer/devops"
+        }
+      ],
+      "tags": ["all", "CI/CD"]
+    }
+] 
