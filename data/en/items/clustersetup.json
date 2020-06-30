@@ -103,5 +103,31 @@
       "description": "ADX is a regional service, choosing the right region is essential",
       "detail": "Put the cluster close to your data source, in order to minimize bandwidth cost and latency.",
       "tags": ["all"]
+    },
+    {
+      "title": "Development environment segregation",
+      "priority": "Medium",
+      "description": "Create a plan to segregate ADX environments for different development environments",
+      "detail": "It makes a lot of sense to segregate ADX environments based on development environments like DEV, QA and PROD. Create a plan based on the requirements for the individual environments.",
+      "tags": ["all"]
+    },
+    {
+      "title": "Project based segregation",
+      "priority": "Medium",
+      "description": "Create a plan to segregate ADX environments for different projects",
+      "detail": "ADX is a true multi tenant database and you can build SaaS offerings on top of it by deploying individual projects into dedicated databases.",
+      "tags": ["all"]
+    },
+    {
+      "title": "Create a caching strategy",
+      "priority": "Medium",
+      "description": "Data in hot cache is the major cost driver. Create a plan on how long which table needs to be kept in cache.",
+      "documentation": [
+        {
+          "title": "Cache policy (hot and cold cache)",
+          "url": "https://docs.microsoft.com/en-us/azure/data-explorer/kusto/management/cachepolicy"
+        }
+      ],
+      "tags": ["all"]
     }
 ] 
