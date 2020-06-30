@@ -36,7 +36,7 @@ There are up to six steps:
 
 The source code itself is a modified version of the [Front-End Checklist](https://github.com/thedaviddias/Front-End-Checklist) which was created by [David Dias](https://github.com/thedaviddias)
 Icons made by Freepik from [www.flaticon.com](www.flaticon.com) is licensed by CC 3.0 BY
-The project has been forked from the [aks checklist project](https://github.com/lgmorand/aks-checklist) created by **[Louis-Guillaume MORAND](https://github.com/lgmorand)**
+The project has been forked from the [aks checklist project](https://github.com/lgmorand/aks-checklist) created by **[Louis-Guillaume MORAND](https://github.com/lgmorand)**. Thx a lot for your support!
 
 ## License
 
