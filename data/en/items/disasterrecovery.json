@@ -3,7 +3,7 @@
         "title": "Implement a BCDR strategy",
         "priority": "Low",
         "description": "enable your business to continue operating in the face of a true disruption",
-        "details" : "Azure Data Explorer currently does not support an automatic protection against the outage of an entire Azure region. Theoretically this can happen in case of a natural disaster like an earthquake",
+        "detail" : "Azure Data Explorer currently does not support an automatic protection against the outage of an entire Azure region. Theoretically this can happen in case of a natural disaster like an earthquake",
         "documentation": [
           {
             "title": "Azure Data Explorer and business continuity",
@@ -16,7 +16,7 @@
         "title": "Deploy into Azure Availability Zones",
         "priority": "Medium",
         "description": "Protect an Azure Data Explorer cluster from partial region failure",
-        "details" : "Deploying a new cluster to different availability zones means the underlying compute and storage components are deployed to different zones in the region with independent power, cooling and networking. In a case of a zonal downtime the cluster will continue to work, but it might have performance degradation until the failure will be resolved",
+        "detail" : "Deploying a new cluster to different availability zones means the underlying compute and storage components are deployed to different zones in the region with independent power, cooling and networking. In a case of a zonal downtime the cluster will continue to work, but it might have performance degradation until the failure will be resolved",
         "documentation": [
           {
             "title": "Deployment guide",

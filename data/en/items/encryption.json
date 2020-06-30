@@ -3,7 +3,7 @@
       "title": "Encryption at rest for engine storage",
       "priority": "Low",
       "description": "Protect and safeguard your data to meet your organizational security and compliance commitments",
-      "details" : "Provides volume encryption for the OS and data disks of your cluster virtual machines. It also integrates with Azure Key Vault, which allows us to control and manage the disk encryption keys and secrets, and ensure all data on the VM disks is encrypted",
+      "detail" : "Provides volume encryption for the OS and data disks of your cluster virtual machines. It also integrates with Azure Key Vault, which allows us to control and manage the disk encryption keys and secrets, and ensure all data on the VM disks is encrypted",
       "documentation": [
         {
           "title": "Enable encryption at rest in the Azure portal",
@@ -16,7 +16,7 @@
       "title": "Encryption at rest for the underlying storage accounts",
       "priority": "Medium",
       "description": "Encrypts all data in a storage account at rest",
-      "details" : "Azure Data Explorer encrypts all data in a storage account at rest. By default, data is encrypted with Microsoft-managed keys. For additional control over encryption keys, you can supply customer-managed keys to use for data encryption",
+      "detail" : "Azure Data Explorer encrypts all data in a storage account at rest. By default, data is encrypted with Microsoft-managed keys. For additional control over encryption keys, you can supply customer-managed keys to use for data encryption",
       "documentation": [
         {
           "title": "Configure customer-managed keys using the Azure portal",
