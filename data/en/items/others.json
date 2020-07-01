@@ -13,9 +13,9 @@
     "tags": ["all", "optional"]
   },
   {
-    "title": "Implement a GDPR plan",
+    "title": "Assess if data stored in ADX is GDPR relevant",
     "priority": "Low",
-    "description": "Delete personal data",
+    "description": "Consider implementing a process how to delete personal identifiable data",
     "detail" : "As a data platform, Azure Data Explorer supports the ability to delete individual records, through the use of Kusto .purge and related commands.",
     "documentation": [
       {
