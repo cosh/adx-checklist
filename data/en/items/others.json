@@ -58,5 +58,12 @@
       }
     ],
     "tags": ["all", "resiliency", "optional"]
+  },
+  {
+    "title": "Assess and practice how to leverage Azure Support Center Solutions",
+    "priority": "Low",
+    "description": "Automatically get your cluster diagnosed for any known issues",
+    "detail": "This ability is needed to automatically get your cluster diagnosed for any known issues and be provided automatically with solutions to these issues. This feature is surfaced both as part of the “Diagnose and Solve Problems” blade or through the “New Support Request” blade. In the “Diagnose and Solve Problems” blade you will be provided with common problems, and based on the problem you choose we will automatically try to detect issues on your cluster, and will be provide you with recommended common solutions to the issue.",
+    "tags": ["all", "education"]
   }
 ] 

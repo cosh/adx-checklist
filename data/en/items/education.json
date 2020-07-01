@@ -1,26 +1,34 @@
 [
     {
-      "title": "Take courses",
+      "title": "Know about what ADX is and what it's not",
       "priority": "High",
       "description": "Become an ADX and KQL master",
       "documentation": [
         {
-          "title": "Exploring Data in Microsoft Azure Using Kusto Query Language and Azure Data Explorer",
-          "url": "https://www.pluralsight.com/courses/microsoft-azure-data-exploring"
+          "title": "ADX documentation",
+          "url": "https://docs.microsoft.com/en-us/azure/data-explorer/"
         },
         {
           "title": "What is Azure Data Explorer?",
           "url": "https://www.youtube.com/watch?v=OhLEkdlTke0"
         },
         {
+          "title": "Exploring Data in Microsoft Azure Using Kusto Query Language and Azure Data Explorer",
+          "url": "https://www.pluralsight.com/courses/microsoft-azure-data-exploring"
+        },
+        {
           "title": "Kusto Skills: Data in Microsoft Azure Using Kusto Query Language and Azure Data Explorer Preview",
           "url": "https://www.youtube.com/watch?v=b5HB6LvwuNo"
+        },
+        {
+          "title": "ADX whitepaper",
+          "url": "https://azure.microsoft.com/en-us/resources/azure-data-explorer/"
         }
       ],
       "tags": ["all", "education"]
     },
     {
-      "title": "Inform yourself how others are doing",
+      "title": "Best practices leveraged from other ADX installations",
       "priority": "High",
       "description": "Learn from others",
       "documentation": [
@@ -29,13 +37,6 @@
           "url": "https://customers.microsoft.com/EN-GB/search?sq=%22Azure%20Data%20Explorer%22&ff=&p=0&so=story_publish_date%20desc"
         }
       ],
-      "tags": ["all", "education"]
-    },
-    {
-      "title": "Azure Support Center Solutions",
-      "priority": "Medium",
-      "description": "Automatically get your cluster diagnosed for any known issues",
-      "detail": "This ability is needed to automatically get your cluster diagnosed for any known issues and be provided automatically with solutions to these issues. This feature is surfaced both as part of the “Diagnose and Solve Problems” blade or through the “New Support Request” blade. In the “Diagnose and Solve Problems” blade you will be provided with common problems, and based on the problem you choose we will automatically try to detect issues on your cluster, and will be provide you with recommended common solutions to the issue.",
       "tags": ["all", "education"]
     }
 ] 

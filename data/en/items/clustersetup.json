@@ -2,12 +2,12 @@
   {
     "title": "Chose the best region",
     "priority": "High",
-    "description": "ADX is a regional service, choosing the right region is essential",
+    "description": "ADX is a regional service, choosing the Azure region with the best fit is essential",
     "detail": "Put the cluster close to your data source, in order to minimize bandwidth cost and latency.",
     "tags": ["all"]
   },
   {
-    "title": "ADX dimensioning",
+    "title": "Plan the ADX dimensioning",
     "priority": "High",
     "description": "Select the correct vertical and horizontal scale",
     "documentation": [
@@ -24,12 +24,18 @@
         "url": "https://docs.microsoft.com/en-us/azure/data-explorer/manage-cluster-vertical-scaling"
       }
     ],
+    "tools":[
+      {
+        "title": "ADX cost calculator",
+        "url": "https://aka.ms/adx.cost"
+      }
+    ],
     "tags": ["all"]
   },
     {
-      "title": "Reduce cost with reserved instances",
+      "title": "Assess reducing cost with reserved instances",
       "priority": "Medium",
-      "description": "Save money",
+      "description": "Save money in case you plan to use ADX for more than one or three years",
       "detail": "Save money with Azure Data Explorer by prepaying for the markup units compared to pay-as-you-go prices. With Azure Data Explorer reserved capacity, you make a commitment for Azure Data Explorer use for a period of one or three years to get a significant discount on the Azure Data Explorer markup costs. To purchase Azure Data Explorer reserved capacity, you only need to specify the term, it will apply to all deployments of Azure Data Explorer in all regions",
       "documentation": [
         {
@@ -44,7 +50,7 @@
       "tags": ["all"]
     },
     {
-      "title": "Setup diagnostic logs",
+      "title": "Evaluate setting up diagnostic logs",
       "priority": "Medium",
       "description": "Collect data about ingestion, health and performance",
       "documentation": [
@@ -60,7 +66,7 @@
       "tags": ["all", "monitoring"]
     },
     {
-      "title": "Setup auto scale",
+      "title": "Check if auto scale helps you optimizing cost",
       "priority": "Medium",
       "description": "Manage the scale of your Azure Data Explorer cluster",
       "documentation": [
@@ -76,14 +82,14 @@
       "tags": ["all"]
     },
     {
-      "title": "Development environment segregation",
+      "title": "Judge if you need to segregate your deployment for multiple development environments",
       "priority": "Medium",
       "description": "Create a plan to segregate ADX environments for different development environments",
       "detail": "It makes a lot of sense to segregate ADX environments based on development environments like DEV, QA and PROD. Create a plan based on the requirements for the individual environments.",
       "tags": ["all"]
     },
     {
-      "title": "Project based segregation",
+      "title": "Evaluate using multiple databases on one ADX in case you are building a SaaS application",
       "priority": "Medium",
       "description": "Create a plan to segregate ADX environments for different projects",
       "detail": "ADX is a true multi tenant database and you can build SaaS offerings on top of it by deploying individual projects into dedicated databases.",
