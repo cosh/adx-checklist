@@ -1,9 +1,9 @@
 {
-  "SITE_NAME": "The Azure Data Explorer Service Checklist",
-  "INDEX_TITLE": "✨ Be ready for production ✨",
+  "SITE_NAME": "The Azure Data Explorer Checklist",
+  "INDEX_TITLE": "✨ Start Check Generate Enjoy ✨",
   "URL_WEBSITE": "https://aka.ms/adx.checklist",
-  "SITE_TAGLINE": "The ADX Checklist - the best way to ensure your cluster is production-ready!",
-  "SITE_DESCRIPTION": "The best way to ensure your cluster is production-ready!",
+  "SITE_TAGLINE": "The ADX Checklist - the best way to ensure your cluster will be working as expected!",
+  "SITE_DESCRIPTION": "The best way to ensure your cluster will be working as expected!",
   "SITE_VERSION":"Last updated on: ",
   "SITE_LANGUAGE": "en",
   "SITE_DIRECTION": "ltr",
@@ -35,7 +35,7 @@
   },
   "social": {
     "TWEET": "Tweet",
-    "TWITTER_MSG": "Check the ✨ ADX Checklist ✨, the best way to ensure your cluster is production-ready 📑!",
+    "TWITTER_MSG": "Check the ✨ ADX Checklist ✨, the best way to ensure your cluster will be working as expected 📑!",
     "TWITTER_VIA": "cosh23",
     "TWITTER_HASHTAGS": "ADX Checklist #AzureDataExplorer #security #ADX #kusto #Azure",
     "STAR": "Star",
