@@ -14,7 +14,7 @@
   },
   {
     "title": "Implement a GDPR plan",
-    "priority": "High",
+    "priority": "Low",
     "description": "Delete personal data",
     "detail" : "As a data platform, Azure Data Explorer supports the ability to delete individual records, through the use of Kusto .purge and related commands.",
     "documentation": [
