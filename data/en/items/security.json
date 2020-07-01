@@ -1,0 +1,108 @@
+[
+  {
+    "title": "Role-based access control",
+    "priority": "High",
+    "description": "Segregate duties",
+    "detail" : "Using role-based access control (RBAC), you can segregate duties within your team and grant only the required access to cluster users. Instead of giving everybody unrestricted permissions on the cluster, you can allow only certain actions. You can configure access control for the databases in the Azure portal, using the Azure CLI, or Azure PowerShell",
+    "documentation": [
+      {
+        "title": "Manage permissions",
+        "url": "https://docs.microsoft.com/en-us/azure/data-explorer/manage-database-permissions"
+      },
+      {
+        "title": "Pick the correct identity for your use-case",
+        "url": "https://docs.microsoft.com/en-us/azure/data-explorer/kusto/management/access-control/principals-and-identity-providers"
+      }
+    ],
+    "tags": ["all", "security", "identity"]
+  },
+  {
+    "title": "Row level security",
+    "priority": "Low",
+    "description": "Use group membership or execution context to control access to rows in a database table",
+    "detail" : "Row Level Security (RLS) simplifies the design and coding of security. It lets you apply restrictions on data row access in your application. For example, limit user access to rows relevant to their department, or restrict customer access to only the data relevant to their company",
+    "documentation": [
+      {
+        "title": "Row Level Security (Preview)",
+        "url": "https://docs.microsoft.com/en-us/azure/data-explorer/kusto/management/rowlevelsecuritypolicy"
+      },
+      {
+        "title": "Row Level Security (RLS) - get more control over your data",
+        "url": "https://techcommunity.microsoft.com/t5/azure-data-explorer/row-level-security-rls-get-more-control-over-your-data/ba-p/1203102"
+      }
+    ],
+    "tags": ["all", "security", "identity"]
+  },
+  {
+    "title": "Managed identities",
+    "priority": "Low",
+    "description": "Allows your cluster to easily access other AAD-protected resources such as Azure Key Vault",
+    "detail" : "A managed identity from Azure Active Directory allows your cluster to easily access other AAD-protected resources such as Azure Key Vault. The identity is managed by the Azure platform and doesn't require you to provision or rotate any secrets. This article shows you how to create a managed identity for Azure Data Explorer clusters. Managed identity configuration is currently supported only to enable customer-managed keys for your cluster",
+    "documentation": [
+      {
+        "title": "Configure managed identities for your Azure Data Explorer cluster",
+        "url": "https://docs.microsoft.com/en-us/azure/data-explorer/managed-identities"
+      }
+    ],
+    "tags": ["all", "security", "identity"]
+  },
+  {
+    "title": "Encryption at rest for engine storage",
+    "priority": "Low",
+    "description": "Protect and safeguard your data to meet your organizational security and compliance commitments",
+    "detail" : "Provides volume encryption for the OS and data disks of your cluster virtual machines. It also integrates with Azure Key Vault, which allows us to control and manage the disk encryption keys and secrets, and ensure all data on the VM disks is encrypted",
+    "documentation": [
+      {
+        "title": "Enable encryption at rest in the Azure portal",
+        "url": "https://docs.microsoft.com/en-us/azure/data-explorer/manage-cluster-security#enable-encryption-at-rest-in-the-azure-portal"
+      }
+    ],
+    "tags": ["all", "security", "encryption"]
+  },
+  {
+    "title": "Encryption at rest for the underlying storage accounts",
+    "priority": "Low",
+    "description": "Encrypts all data in a storage account at rest",
+    "detail" : "Azure Data Explorer encrypts all data in a storage account at rest. By default, data is encrypted with Microsoft-managed keys. For additional control over encryption keys, you can supply customer-managed keys to use for data encryption",
+    "documentation": [
+      {
+        "title": "Configure customer-managed keys using the Azure portal",
+        "url": "https://docs.microsoft.com/en-us/azure/data-explorer/customer-managed-keys-portal"
+      },
+      {
+        "title": "Use customer managed keys to encrypt data on Azure Data Explorer clusters",
+        "url": "https://techcommunity.microsoft.com/t5/azure-data-explorer/use-customer-managed-keys-to-encrypt-data-on-azure-data-explorer/ba-p/1119129"
+      }
+    ],
+    "tags": ["all", "security", "encryption"]
+  },
+  {
+    "title": "Deploy ADX into your Virtual Network",
+    "priority": "Low",
+    "description": "Implement network isolation",
+    "detail" : "Azure Data Explorer supports deploying a cluster into a subnet in your Virtual Network (VNet)",
+    "documentation": [
+      {
+        "title": "Deploy Azure Data Explorer cluster into your Virtual Network",
+        "url": "https://docs.microsoft.com/en-us/azure/data-explorer/vnet-deployment"
+      }
+    ],
+    "tags": ["all", "security", "network"]
+  },
+  {
+    "title": "Monitor networking",
+    "priority": "Low",
+    "description": "Setup services to troubleshoot connectivity, operational, and cluster creation issues",
+    "documentation": [
+      {
+        "title": "Enable NSG Flow Logs",
+        "url": "https://docs.microsoft.com/azure/network-watcher/network-watcher-nsg-flow-logging-portal"
+      },
+      {
+        "title": "Check the NGSs, route table and firewalls",
+        "url": "https://docs.microsoft.com/en-us/azure/data-explorer/vnet-deploy-troubleshoot"
+      }
+    ],
+    "tags": ["all", "security", "network"]
+  }
+] 

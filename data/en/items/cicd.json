@@ -21,7 +21,7 @@
     },
     {
       "title": "Source Control For Azure Data Explorer Database Schemas",
-      "priority": "Medium",
+      "priority": "Low",
       "description": "Create a maintainable development process",
       "documentation": [
         {
@@ -41,6 +41,6 @@
           "url": "https://docs.microsoft.com/en-us/azure/data-explorer/devops"
         }
       ],
-      "tags": ["all", "CI/CD"]
+      "tags": ["CI/CD", "optional"]
     }
 ] 

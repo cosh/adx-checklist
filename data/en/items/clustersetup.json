@@ -1,53 +1,31 @@
 [
-   {
-      "title": "Deploy ADX into your Virtual Network",
-      "priority": "Low",
-      "description": "Implement network isolation",
-      "detail" : "Azure Data Explorer supports deploying a cluster into a subnet in your Virtual Network (VNet)",
-      "documentation": [
-        {
-          "title": "Deploy Azure Data Explorer cluster into your Virtual Network",
-          "url": "https://docs.microsoft.com/en-us/azure/data-explorer/vnet-deployment"
-        }
-      ],
-      "tags": ["all", "security", "network"]
-    },
-    {
-      "title": "Monitor networking",
-      "priority": "Low",
-      "description": "Setup services to troubleshoot connectivity, operational, and cluster creation issues",
-      "documentation": [
-        {
-          "title": "Enable NSG Flow Logs",
-          "url": "https://docs.microsoft.com/azure/network-watcher/network-watcher-nsg-flow-logging-portal"
-        },
-        {
-          "title": "Check the NGSs, route table and firewalls",
-          "url": "https://docs.microsoft.com/en-us/azure/data-explorer/vnet-deploy-troubleshoot"
-        }
-      ],
-      "tags": ["all", "security", "network"]
-    },
-    {
-      "title": "ADX dimensioning",
-      "priority": "High",
-      "description": "Select the correct vertical and horizontal scale",
-      "documentation": [
-        {
-          "title": "Select the correct VM SKU for your Azure Data Explorer cluster",
-          "url": "https://docs.microsoft.com/en-us/azure/data-explorer/manage-cluster-choose-sku"
-        },
-        {
-          "title": "Manage cluster horizontal scaling (scale out) in Azure Data Explorer to accommodate changing demand",
-          "url": "https://docs.microsoft.com/en-us/azure/data-explorer/manage-cluster-horizontal-scaling"
-        },
-        {
-          "title": "Manage cluster vertical scaling (scale up) in Azure Data Explorer to accommodate changing demand",
-          "url": "https://docs.microsoft.com/en-us/azure/data-explorer/manage-cluster-vertical-scaling"
-        }
-      ],
-      "tags": ["all"]
-    },
+  {
+    "title": "Chose the best region",
+    "priority": "High",
+    "description": "ADX is a regional service, choosing the right region is essential",
+    "detail": "Put the cluster close to your data source, in order to minimize bandwidth cost and latency.",
+    "tags": ["all"]
+  },
+  {
+    "title": "ADX dimensioning",
+    "priority": "High",
+    "description": "Select the correct vertical and horizontal scale",
+    "documentation": [
+      {
+        "title": "Select the correct VM SKU for your Azure Data Explorer cluster",
+        "url": "https://docs.microsoft.com/en-us/azure/data-explorer/manage-cluster-choose-sku"
+      },
+      {
+        "title": "Manage cluster horizontal scaling (scale out) in Azure Data Explorer to accommodate changing demand",
+        "url": "https://docs.microsoft.com/en-us/azure/data-explorer/manage-cluster-horizontal-scaling"
+      },
+      {
+        "title": "Manage cluster vertical scaling (scale up) in Azure Data Explorer to accommodate changing demand",
+        "url": "https://docs.microsoft.com/en-us/azure/data-explorer/manage-cluster-vertical-scaling"
+      }
+    ],
+    "tags": ["all"]
+  },
     {
       "title": "Reduce cost with reserved instances",
       "priority": "Medium",
@@ -95,13 +73,6 @@
           "url": "https://techcommunity.microsoft.com/t5/azure-data-explorer/how-to-monitor-azure-data-explorer-ingestion-using-diagnostic/ba-p/1107252"
         }
       ],
-      "tags": ["all"]
-    },
-    {
-      "title": "Chose the best region",
-      "priority": "High",
-      "description": "ADX is a regional service, choosing the right region is essential",
-      "detail": "Put the cluster close to your data source, in order to minimize bandwidth cost and latency.",
       "tags": ["all"]
     },
     {
