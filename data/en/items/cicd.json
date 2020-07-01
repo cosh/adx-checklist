@@ -29,7 +29,7 @@
           "url": "https://github.com/microsoft/synckusto"
         }
       ],
-      "tags": ["all", "CI/CD"]
+      "tags": ["all", "CI/CD", "optional"]
     },
     {
       "title": "Use Azure DevOps pipelines",
@@ -41,6 +41,6 @@
           "url": "https://docs.microsoft.com/en-us/azure/data-explorer/devops"
         }
       ],
-      "tags": ["CI/CD", "optional"]
+      "tags": ["all", "CI/CD", "optional"]
     }
 ] 
