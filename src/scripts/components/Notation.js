@@ -75,10 +75,10 @@ class Notation {
         notationLetter.innerHTML = 'C';
         break;
 
-      case getPercent < 100:
+      case getPercent <= 95:
         notationLetter.innerHTML = 'B';
         break;
-      case getPercent === 100:
+      case getPercent > 95:
         notationLetter.innerHTML = 'A';
         break;
       default:
