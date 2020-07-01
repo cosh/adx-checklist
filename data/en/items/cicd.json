@@ -1,7 +1,7 @@
 [
     {
-      "title": "Deploy with ARM",
-      "priority": "High",
+      "title": "Consider deploying through code",
+      "priority": "Medium",
       "description": "Implement infrastructure as code",
       "documentation": [
         {
@@ -17,24 +17,18 @@
           "url": "https://github.com/Azure/azure-quickstart-templates/tree/master/101-kusto-cluster-database"
         }
       ],
-      "tags": ["all", "CI/CD"]
+      "tags": ["all", "CI/CD", "optional"]
     },
     {
-      "title": "Source Control For Azure Data Explorer Database Schemas",
+      "title": "Evaluate using a source control management system for your DDL and functions",
       "priority": "Low",
-      "description": "Create a maintainable development process",
-      "documentation": [
+      "description": "Create a maintainable development process and assess deploying through devops tasks",
+      "tools": [
         {
           "title": "Sync Kusto",
           "url": "https://github.com/microsoft/synckusto"
         }
       ],
-      "tags": ["all", "CI/CD", "optional"]
-    },
-    {
-      "title": "Use Azure DevOps pipelines",
-      "priority": "Low",
-      "description": "Implement high-performance pipelines",
       "documentation": [
         {
           "title": "Azure DevOps Task for Azure Data Explorer",
