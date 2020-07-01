@@ -10,7 +10,7 @@
         "url": "https://docs.microsoft.com/en-us/azure/data-explorer/data-share"
       }
     ],
-    "tags": ["optional"]
+    "tags": ["all", "optional"]
   },
   {
     "title": "Implement a GDPR plan",
@@ -27,7 +27,7 @@
         "url": "https://servicetrust.microsoft.com/ViewPage/GDPRGetStarted"
       }
     ],
-    "tags": ["optional"]
+    "tags": ["all", "optional"]
   },
   {
     "title": "Evaluate your disaster recovery/resiliency needs",
@@ -40,7 +40,7 @@
         "url": "https://techcommunity.microsoft.com/t5/azure-data-explorer/azure-data-explorer-and-business-continuity/ba-p/1332767"
       }
     ],
-    "tags": ["resiliency", "optional"]
+    "tags": ["all", "resiliency", "optional"]
   },
   {
     "title": "Evaluate deploying into Azure Availability Zones",
@@ -57,6 +57,6 @@
         "url": "https://techcommunity.microsoft.com/t5/azure-data-explorer/enhanced-security-and-resiliency-with-your-azure-data-explorer/ba-p/843872"
       }
     ],
-    "tags": ["resiliency", "optional"]
+    "tags": ["all", "resiliency", "optional"]
   }
 ] 

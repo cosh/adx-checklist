@@ -33,7 +33,7 @@
     },
     {
       "title": "Use Azure DevOps pipelines",
-      "priority": "Medium",
+      "priority": "Low",
       "description": "Implement high-performance pipelines",
       "documentation": [
         {
