@@ -9,11 +9,11 @@
           "url": "https://docs.microsoft.com/en-us/azure/templates/microsoft.kusto/allversions"
         },
         {
-          "title": "Deploy Azure Data Explorer cluster into your VNet",
+          "title": "Deploy Azure Data Explorer cluster into your VNet through ARM",
           "url": "https://github.com/Azure/azure-quickstart-templates/tree/master/101-kusto-vnet"
         },
         {
-          "title": "Create a cluster, a database and add principals to it",
+          "title": "Create a cluster, a database and add principals to it through ARM",
           "url": "https://github.com/Azure/azure-quickstart-templates/tree/master/101-kusto-cluster-database"
         }
       ],
