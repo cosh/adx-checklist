@@ -72,7 +72,6 @@ label:hover {
 
   input {
     width: 100%;
-    
     @include mq('handheld-and-up') {
       width: 100%;
     }
