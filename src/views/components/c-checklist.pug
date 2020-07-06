@@ -43,4 +43,4 @@
     .form
       .form-result
         input(type="text", id=`c-checklist__item-result-${sectionTitle.toLowerCase().split(' ').join('-')}-${i}` + item.title name="resultItem", title=translation.form.TITLE_RESULT required)
-        label(for="resultItem" + item.title name="resultItem")= translation.form.LABEL_RESULT
+        label(for=`c-checklist__item-result-${sectionTitle.toLowerCase().split(' ').join('-')}-${i}` name="resultItem")= translation.form.LABEL_RESULT
