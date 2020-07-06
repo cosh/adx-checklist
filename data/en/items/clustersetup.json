@@ -3,7 +3,17 @@
     "title": "Chose the best region",
     "priority": "High",
     "description": "ADX is a regional service, choosing the Azure region with the best fit is essential",
-    "detail": "Put the cluster close to your data source, in order to minimize bandwidth cost and latency.",
+    "detail": "Put the cluster close to your data source, in order to minimize bandwidth cost and latency. Azure has more global regions than any other cloud provider—offering the scale needed to bring applications closer to users around the world, preserving data residency, and offering comprehensive compliance and resiliency options for customers.",
+    "documentation": [
+      {
+        "title": "Azure regions",
+        "url": "https://azure.microsoft.com/en-us/global-infrastructure/regions/"
+      },
+      {
+        "title": "ADX availability by region",
+        "url": "https://azure.microsoft.com/en-us/global-infrastructure/services/?products=data-explorer"
+      }
+    ],
     "tags": ["all"]
   },
   {
