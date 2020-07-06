@@ -70,9 +70,12 @@ label:hover {
     margin: 20px 0 0;
   }
 
-  &__remark {
+  input {
     width: 100%;
-    min-width: 100%;
+    
+    @include mq('handheld-and-up') {
+      width: 100%;
+    }
   }
 }
 
