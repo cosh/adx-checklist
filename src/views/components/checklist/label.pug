@@ -44,12 +44,6 @@
                 img.c-checklist__favicon(src="/img/icons/1x1.png" data-src=`https://www.google.com/s2/favicons?domain_url=${video.url}`, alt="")
                 a(href=`${video.url}`, target="_blank", rel="noopener noreferrer")= video.title
 
-  .s-form
-    .form
-      .form-result
-        input(type="text", id="resultItem__" + item.title name="resultItem", title=translation.form.TITLE_RESULT required)
-        label(for="resultItem" + item.title name="resultItem")= translation.form.LABEL_RESULT
-
   .c-tags
     ul.c-tags__list
       each tag in item.tags
