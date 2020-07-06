@@ -65,10 +65,12 @@ label:hover {
 .form-result {
   position: relative;
   margin: 20px 0;
-  width: 100%;
 
   &:last-of-type {
     margin: 20px 0 0;
+  }
+
+  @include mq('handheld-and-up') {
     width: 100%;
   }
 }
