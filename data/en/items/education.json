@@ -2,27 +2,45 @@
     {
       "title": "Know about what ADX is and what it's not",
       "priority": "High",
-      "description": "Become an ADX and KQL master",
+      "description": "Become an ADX master",
       "documentation": [
         {
           "title": "ADX documentation",
           "url": "https://docs.microsoft.com/en-us/azure/data-explorer/"
         },
         {
+          "title": "ADX whitepaper",
+          "url": "https://azure.microsoft.com/en-us/resources/azure-data-explorer/"
+        }
+      ],
+      "video": [
+        {
           "title": "What is Azure Data Explorer?",
           "url": "https://www.youtube.com/watch?v=OhLEkdlTke0"
         },
         {
-          "title": "Exploring Data in Microsoft Azure Using Kusto Query Language and Azure Data Explorer",
-          "url": "https://www.pluralsight.com/courses/microsoft-azure-data-exploring"
-        },
-        {
           "title": "Kusto Skills: Data in Microsoft Azure Using Kusto Query Language and Azure Data Explorer Preview",
           "url": "https://www.youtube.com/watch?v=b5HB6LvwuNo"
+        }
+      ],
+      "tags": ["all", "education"]
+    },
+    {
+      "title": "Training on KQL",
+      "priority": "High",
+      "description": "Become a KQL ninja",
+      "documentation": [
+        {
+          "title": "How to Start with Microsoft Azure Data Explorer",
+          "url": "https://www.pluralsight.com/courses/microsoft-azure-data-explorer-starting"
         },
         {
-          "title": "ADX whitepaper",
-          "url": "https://azure.microsoft.com/en-us/resources/azure-data-explorer/"
+          "title": "Microsoft Azure Data Explorer - Advanced KQL",
+          "url": "https://www.pluralsight.com/courses/microsoft-azure-data-explorer-advanced-query-capabilities"
+        },
+        {
+          "title": "Exploring Data in Microsoft Azure Using Kusto Query Language and Azure Data Explorer",
+          "url": "https://www.pluralsight.com/courses/microsoft-azure-data-exploring"
         }
       ],
       "tags": ["all", "education"]
