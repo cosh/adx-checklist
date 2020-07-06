@@ -47,8 +47,8 @@
   .s-form
     .form
       .form-result
-        input(type="text", id="resultItem" name="resultItem", title=translation.form.TITLE_RESULT required)
-        label(for="resultItem")= translation.form.LABEL_RESULT
+        input(type="text", id="resultItem__" + item.title name="resultItem", title=translation.form.TITLE_RESULT required)
+        label(for="resultItem" + item.title name="resultItem")= translation.form.LABEL_RESULT
 
   .c-tags
     ul.c-tags__list
