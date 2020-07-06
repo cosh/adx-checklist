@@ -32,8 +32,8 @@
     "LABEL_SEARCH": "Search",
     "BUTTON_START_NEW": "Start new checklist",
     "BUTTON_GENERATE_PRINT": "Generate report",
-    "LABEL_RESULT": "Result statement",
-    "TITLE_RESULT": "Enter a result statement"
+    "LABEL_REMARK": "Remark",
+    "TITLE_REMARK": "Enter a remark"
   },
   "social": {
     "TWEET": "Tweet",

@@ -41,6 +41,6 @@
 
   .s-form
     .form
-      .form-result
-        input(type="text", id=`c-checklist__item-result-${sectionTitle.toLowerCase().split(' ').join('-')}-${i}` name="resultItem", title=translation.form.TITLE_RESULT required)
-        label(for=`c-checklist__item-result-${sectionTitle.toLowerCase().split(' ').join('-')}-${i}` name="resultItem")= translation.form.LABEL_RESULT
+      .form-remark
+        input(type="text", id=`c-checklist__${sectionTitle.toLowerCase().split(' ').join('-')}__remark` name="remarkItem", title=translation.form.TITLE_REMARK required)
+        label(for=`c-checklist__${sectionTitle.toLowerCase().split(' ').join('-')}__remark` name="remarkItem")= translation.form.LABEL_REMARK

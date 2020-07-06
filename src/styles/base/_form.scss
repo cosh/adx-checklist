@@ -62,7 +62,7 @@ label:hover {
   }
 }
 
-.form-result {
+.form-remark {
   position: relative;
   margin: 20px 0;
 
@@ -70,7 +70,7 @@ label:hover {
     margin: 20px 0 0;
   }
 
-  @include mq('handheld-and-up') {
+  &__remark {
     width: 100%;
   }
 }
