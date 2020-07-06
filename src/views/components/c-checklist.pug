@@ -39,8 +39,8 @@
             //- Dropdown column
             include ../components/checklist/dropdown
 
-            .s-form
-              .form
-                .form-result
-                  input(type="text", id=`c-checklist__item-result-${sectionTitle.toLowerCase().split(' ').join('-')}-${i}` + item.title name="resultItem", title=translation.form.TITLE_RESULT required)
-                  label(for="resultItem" + item.title name="resultItem")= translation.form.LABEL_RESULT
+  .s-form
+    .form
+      .form-result
+        input(type="text", id=`c-checklist__item-result-${sectionTitle.toLowerCase().split(' ').join('-')}-${i}` + item.title name="resultItem", title=translation.form.TITLE_RESULT required)
+        label(for="resultItem" + item.title name="resultItem")= translation.form.LABEL_RESULT
