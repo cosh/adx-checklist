@@ -31,7 +31,9 @@
     "TITLE_DEVELOPER_NAME": "Type your name or the name of your team",
     "LABEL_SEARCH": "Search",
     "BUTTON_START_NEW": "Start new checklist",
-    "BUTTON_GENERATE_PRINT": "Generate report"
+    "BUTTON_GENERATE_PRINT": "Generate report",
+    "LABEL_RESULT": "Result statement",
+    "TITLE_RESULT": "Enter a result statement"
   },
   "social": {
     "TWEET": "Tweet",
