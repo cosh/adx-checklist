@@ -49,10 +49,39 @@
       "title": "Best practices leveraged from other ADX installations",
       "priority": "High",
       "description": "Learn from others",
+      "detail": "Learning from others and getting their best practices is essential.",
       "documentation": [
         {
           "title": "Customer stories",
           "url": "https://customers.microsoft.com/EN-GB/search?sq=%22Azure%20Data%20Explorer%22&ff=&p=0&so=story_publish_date%20desc"
+        },
+        {
+          "title": "Better forecasting, safer driving with Bosch",
+          "url": "https://customers.microsoft.com/EN-GB/story/816933-bosch-automotive-azure-germany"
+        },
+        {
+          "title": "Global software company Episerver uses Azure Data Explorer to gain enhanced consumer insight",
+          "url": "https://customers.microsoft.com/EN-GB/story/817285-episerver-professional-services-azure-sweden"
+        },
+        {
+          "title": "Bosch increases vehicle safety using map-matching algorithms and Azure Kubernetes Service",
+          "url": "https://customers.microsoft.com/EN-GB/story/765209-bosch-increases-vehicle-safety-using-map-matching-algorithms-and-azure-kubernetes-service"
+        },
+        {
+          "title": "Weidmüller helps manufacturers turn knowledge into innovation with Industrial AutoML and Microsoft Azure",
+          "url": "https://customers.microsoft.com/EN-GB/story/790030-weidmueller-manufacturing-azure"
+        },
+        {
+          "title": "End-to-end telemetry for SAP on Azure",
+          "url": "https://customers.microsoft.com/EN-GB/story/785611-microsoft-professional-services-azure-monitor-telemetry"
+        },
+        {
+          "title": "Screenzilla delivers data-driven gaming experiences, unlocks player lifetime value with Azure",
+          "url": "https://customers.microsoft.com/EN-GB/story/724204-screenzilla-entertainment-hyper-hippo-productions-gaming-azure"
+        },
+        {
+          "title": "Mobile user acquisition PaaS converts terabytes of real-time data into user engagement",
+          "url": "https://customers.microsoft.com/EN-GB/story/816542-zoomd-technologies-azure-professional-services-israel-en"
         }
       ],
       "tags": ["all", "education"]
