@@ -64,6 +64,7 @@
       "title": "Evaluate setting up diagnostic logs",
       "priority": "Medium",
       "description": "Collect data about ingestion, health and performance",
+      "detail": "Azure Data Explorer uses diagnostic logs for insights on ingestion successes and failures. You can export operation logs to Azure Storage, Event Hub, or Log Analytics to monitor ingestion status. Logs from Azure Storage and Azure Event Hub can be routed to a table in your Azure Data Explorer cluster for further analysis.",
       "documentation": [
         {
           "title": "Monitor Azure Data Explorer ingestion operations using diagnostic logs",
