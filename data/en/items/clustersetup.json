@@ -81,6 +81,7 @@
       "title": "Check if auto scale helps you optimizing cost",
       "priority": "Medium",
       "description": "Manage the scale of your Azure Data Explorer cluster",
+      "detail": "Optimized autoscale is the recommended autoscale method. This method optimizes cluster performance and costs. If the cluster approaches a state of under-utilization, it will be scaled in. This action lowers costs but keeps performance level. If the cluster approaches a state of over-utilization, it will be scaled out to maintain optimal performance.",
       "documentation": [
         {
           "title": "Optimized autoscale",
