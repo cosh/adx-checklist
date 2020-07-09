@@ -20,6 +20,7 @@
     "title": "Plan the ADX dimensioning",
     "priority": "High",
     "description": "Select the correct vertical and horizontal scale",
+    "detail": "When you create a new cluster or optimize a cluster for a changing workload, Azure Data Explorer offers multiple virtual machine (VM) SKUs to choose from. The VMs have been carefully chosen to give you the most optimal cost for any workload.",
     "documentation": [
       {
         "title": "Select the correct VM SKU for your Azure Data Explorer cluster",
@@ -99,16 +100,39 @@
       "tags": ["all"]
     },
     {
-      "title": "Evaluate using multiple databases on one ADX in case you are building a SaaS application",
+      "title": "Assess implications and recommendations for multi tenant applications",
       "priority": "Medium",
       "description": "Create a plan to segregate ADX environments for different projects",
       "detail": "ADX is a true multi tenant database and you can build SaaS offerings on top of it by deploying individual projects into dedicated databases.",
+      "documentation": [
+        {
+          "title": "What are databases?",
+          "url": "https://docs.microsoft.com/en-us/azure/data-explorer/kusto/query/schema-entities/databases"
+        },
+        {
+          "title": "Use follower database to attach databases in Azure Data Explorer",
+          "url": "https://docs.microsoft.com/en-us/azure/data-explorer/follower"
+        }
+      ],
+      "tags": ["all"]
+    },
+    {
+      "title": "Assess how long you want to retain the data",
+      "priority": "Medium",
+      "description": "It's useful to remove data that continuously flows into a table, and whose relevance is age-based. For example, the policy can be used for a table that holds diagnostics events that may become uninteresting after two weeks.",
+      "documentation": [
+        {
+          "title": "Retention policy",
+          "url": "https://docs.microsoft.com/en-us/azure/data-explorer/kusto/management/retentionpolicy"
+        }
+      ],
       "tags": ["all"]
     },
     {
       "title": "Create a caching strategy",
       "priority": "Medium",
       "description": "Data in hot cache is the major cost driver. Create a plan on how long which table needs to be kept in cache.",
+      "detail": "Azure Data Explorer stores its ingested data in reliable storage (most commonly Azure Blob Storage), away from its actual processing (such as Azure Compute) nodes. To speed up queries on that data, Azure Data Explorer caches it, or parts of it, on its processing nodes, SSD, or even in RAM. Azure Data Explorer includes a sophisticated cache mechanism designed to intelligently decide which data objects to cache. The cache enables Azure Data Explorer to describe the data artifacts that it uses, so that more important data can take priority. For example, column indexes and column data shards,",
       "documentation": [
         {
           "title": "Cache policy (hot and cold cache)",
